@@ -6,7 +6,7 @@ $sifre = $_POST["sifre"];
 $mesaj = "";
 
 
-    if( $eposta == "" || $sifre == ""){
+    if( $eposta === "" || $sifre === ""){
         $mesaj = "Lütfen tüm alanları doldurunuz!\nYeniden yönlendiriliyorsunuz!\n";
         header("Refresh:4; url=index.php");
     }
