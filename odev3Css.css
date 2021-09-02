@@ -1,0 +1,96 @@
+
+.container {
+    width:300px;
+    margin:0 auto;
+    margin-top:50px
+}
+.tab-menu {
+    display:block;
+    margin:0;
+    padding:0;
+    text-align:center;
+    width: 300px;
+    font-size: medium;
+    text-transform: uppercase;
+}
+.tab-menu li {
+    list-style:none;
+    display:inline-block;
+    margin:0 10px 10px 0;
+    font-size: medium;
+    text-transform: uppercase;
+}
+.tab-menu li a {
+    display:block;
+    color:#666;
+    padding:15px;
+    font-size:14px;
+    font-family: Tahoma;
+    text-decoration:none;
+    border:1px solid #ddd;
+    font-size: medium;
+    text-transform: uppercase;
+}
+
+.tab-content {
+    display:none
+}
+#tab1 {
+    display:block
+}
+
+.tab-container {
+    border:1px solid #ddd;
+    padding:30px;
+    font-family: Tahoma;
+    font-size: medium;
+    color:#666
+}
+
+.current{
+    width: 135px;
+}
+.current a {
+    background:#666 !important;
+    border:1px solid #666 !important;
+    color:#fff !important
+}
+
+.buton {
+    width:235px;
+    height:40px;
+    background-color: red;
+    font-size: medium;
+    color: white;
+    text-transform: uppercase;
+    border: 3px solid darkred;
+    border-radius: 25px;
+}
+
+.giris{
+    width: 230px;
+    height: 40px;
+    margin: 10px 0px 10px 0px;
+    font-size: medium;
+}
+
+.uye{
+    width: 230px;
+    height: 40px;
+    margin: 10px 0px 10px 0px;
+    font-size: medium;
+    display: inline;
+}
+
+#tab2-isim{
+    width: 110px; !important;
+    display:inline-block;
+}
+#tab2-pass{
+    width: 110px; !important;
+    display:inline-block;
+}
+
+.reset{
+    text-align: center;
+}
